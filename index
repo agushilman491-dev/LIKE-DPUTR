@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: Poppins, Arial, sans-serif;
+  background: #eef3f8;
+  text-align: center;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background: #0d47a1;
+  color: white;
+}
+
+.logo {
+  width: 60px;
+}
+
+.judul-header h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.judul-header p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.judul-header span {
+  font-size: 12px;
+}
+
+nav {
+  background: #1565c0;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 8px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 30px;
+}
+
+.tim {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.anggota {
+  text-align: center;
+  color: white;
+}
+
+.anggota img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.anggota span {
+  display: block;
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+footer {
+  background: #0d47a1;
+  color: white;
+  padding: 10px;
+  font-size: 13px;
+  margin-top: 40px;
+}
